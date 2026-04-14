@@ -74,6 +74,24 @@ python main.py
 
 ---
 
+## ⚠️ macOS SSL Fix
+
+If you see an error like:
+
+```
+CERTIFICATE_VERIFY_FAILED
+```
+
+Run this command:
+
+```bash
+/Applications/Python\ 3.x/Install\ Certificates.command
+```
+
+Replace `3.x` with your Python version (e.g. `3.11`).
+
+Then run the app again.
+
 ## 🔊 Output Modes
 
 - `"file"` → saves audio
