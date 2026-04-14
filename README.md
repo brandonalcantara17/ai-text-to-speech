@@ -9,6 +9,8 @@ Simple text-to-speech app using ai.
 ```bash
 cd ai-text-to-speech
 python -m venv venv
+# or
+python3 -m venv venv
 ```
 
 ### Activate environment
