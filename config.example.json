@@ -1,0 +1,81 @@
+{
+  "_description": "Copy to config.json and edit values",
+
+  "text": "Hello! Good Morning.",
+
+  "language": "en-us",
+  "_language_options": [
+    "en-us",
+    "en-gb",
+    "ja",
+    "zh",
+    "es",
+    "fr-fr",
+    "hi",
+    "it",
+    "pt-br"
+  ],
+
+  "voice": "af_heart",
+  "_voice_note": "Pick a voice matching the selected language",
+
+  "_voices_by_language": {
+    "en-us": [
+      "af_heart",
+      "af_bella",
+      "af_nicole",
+      "af_aoede",
+      "af_kore",
+      "af_sarah",
+      "af_alloy",
+      "af_nova",
+      "af_sky",
+      "af_jessica",
+      "af_river",
+      "am_fenrir",
+      "am_michael",
+      "am_puck",
+      "am_echo",
+      "am_eric",
+      "am_liam",
+      "am_onyx",
+      "am_adam",
+      "am_santa"
+    ],
+    "en-gb": [
+      "bf_emma",
+      "bf_isabella",
+      "bf_alice",
+      "bf_lily",
+      "bm_fable",
+      "bm_george",
+      "bm_lewis",
+      "bm_daniel"
+    ],
+    "ja": ["jf_alpha", "jf_gongitsune", "jf_tebukuro", "jf_nezumi", "jm_kumo"],
+    "zh": [
+      "zf_xiaoxiao",
+      "zf_xiaobei",
+      "zf_xiaoni",
+      "zf_xiaoyi",
+      "zm_yunxi",
+      "zm_yunjian",
+      "zm_yunxia",
+      "zm_yunyang"
+    ],
+    "es": ["ef_dora", "em_alex", "em_santa"],
+    "fr-fr": ["ff_siwis"],
+    "hi": ["hf_alpha", "hf_beta", "hm_omega", "hm_psi"],
+    "it": ["if_sara", "im_nicola"],
+    "pt-br": ["pf_dora", "pm_alex", "pm_santa"]
+  },
+
+  "speed": 1.0,
+  "_speed_range": "0.5 - 2.0",
+
+  "output_mode": "file",
+  "_output_mode_options": ["file", "play"],
+
+  "output_file": "output.wav",
+  "_output_note": "Will be auto-fixed to .wav if missing"
+}

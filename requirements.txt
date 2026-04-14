@@ -1,0 +1,6 @@
+kokoro-onnx==0.5.0
+soundfile==0.13.1
+sounddevice==0.5.5
+fastapi==0.135.3
+uvicorn[standard]==0.44.0
+python-multipart==0.0.26
