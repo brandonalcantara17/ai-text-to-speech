@@ -74,6 +74,35 @@ python main.py
 
 ---
 
+## 🛠️ Linux / WSL Troubleshooting
+
+If you get this error:
+
+```text
+OSError: PortAudio library not found
+```
+
+Install PortAudio system packages:
+
+```bash
+sudo apt-get update
+sudo apt-get install -y libportaudio2 portaudio19-dev
+```
+
+If you are running in WSL or another headless environment, you may see:
+
+```text
+sounddevice.PortAudioError: Error querying device -1
+```
+
+This usually means there is no default audio output device. Use file output instead of live playback in `config.json`:
+
+```json
+"output_mode": "file"
+```
+
+---
+
 ## ⚠️ macOS SSL Fix
 
 If you see an error like:
